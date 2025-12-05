@@ -19,6 +19,9 @@ Tudo isso com uma interface simples e um back-end robusto, conectado ao banco de
 
 ---
 
+# Diagramas: [Acesse o Google Drive.](https://drive.google.com/drive/folders/1vg0qnecJ2nsG9PvSJICh5MTciWigMms1?usp=sharing)
+
+---
 # 🛠️ **Tecnologias Utilizadas**
 
 ### **Front-End**
