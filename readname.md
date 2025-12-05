@@ -19,6 +19,9 @@ Tudo isso com uma interface simples e um back-end robusto, conectado ao banco de
 
 ---
 
+# Diagramas: [Acesse o Google Drive.](https://drive.google.com/drive/folders/1vg0qnecJ2nsG9PvSJICh5MTciWigMms1?usp=sharing)
+
+---
 # 🛠️ **Tecnologias Utilizadas**
 
 ### **Front-End**
@@ -75,3 +78,106 @@ Endpoints em Flask.
 # 🔌 **API — Endpoints**
 
 ### ➕ Criar tarefa
+POST /tarefas
+
+
+### 📄 Listar tarefas pendentes
+
+
+GET /tarefas
+
+
+### ✔ Concluir tarefa
+
+
+PUT /tarefas/<id>
+
+
+### ❌ Excluir tarefa
+
+
+DELETE /tarefas/<id>
+
+
+Retornos sempre em JSON.
+
+---
+
+# 🧱 **Arquitetura do Projeto**
+
+
+
+/HelpTask
+│
+├── front-end/
+│ ├── index.html
+│ ├── style.css
+│ └── app.js
+│
+├── back-end/
+│ ├── app.py
+│ ├── controllers/
+│ │ └── tarefaController.py
+│ ├── models/
+│ │ └── tarefa.py
+│ ├── database/
+│ │ ├── connection.py
+│ └── testes/
+│ | ├── test_tarefa.py
+│ └── conftest.py
+│
+└── README.md
+
+
+---
+
+# 🧪 **Testes Automatizados**
+
+O projeto possui testes para:
+
+- Criar tarefa  
+- Listar tarefas  
+- Concluir tarefa  
+- Excluir tarefa  
+
+Testes utilizam `pytest` + `mongomock` para simular o banco de dados sem tocar no MongoDB real.
+
+Para rodar:
+
+
+
+pytest -vv
+
+
+---
+
+# 🚀 **Deploy**
+
+### **Back-end hospedado em:**
+Render.com (Web Service – grátis)
+
+### **Front-end hospedado em:**
+Netlify (arquivos estáticos – grátis)
+
+### Como rodar localmente:
+
+
+
+cd back-end
+pip install -r requirements.txt
+python app.py
+
+
+---
+
+# 👨‍💻 **Autor**
+
+**Andrews Rezende**
+
+Estudante de Desenvolvimento de Software  
+Focado em tecnologia, dados e projetos digitais.
+
+---
+
+# 📄 **Licença**
+Este projeto é de uso acadêmico e livre para fins educacionais.

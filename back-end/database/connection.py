@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 def get_db():
-    client = MongoClient("mongodb+srv://HelpTask:qoqca8-fumcum-sEqpuj@helptask.azbxbso.mongodb.net/")
+    client = MongoClient("MONGO_URI")
     db = client["HelpTask"]
     return db
 

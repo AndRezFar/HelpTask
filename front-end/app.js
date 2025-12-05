@@ -1,5 +1,5 @@
 const lista = document.getElementById("listaTarefas");
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "https://helptask.onrender.com";
 var criarTarefa = document.getElementById("criar_tarefa_tela");
 var btnAbrirCriarCriarTarefa = document.getElementById("criar_tarefa");
 var btnCriarATarefa = document.getElementById("concluir_criar_tarefa");
