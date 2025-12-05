@@ -180,4 +180,5 @@ Focado em tecnologia, dados e projetos digitais.
 ---
 
 # 📄 **Licença**
+
 Este projeto é de uso acadêmico e livre para fins educacionais.
